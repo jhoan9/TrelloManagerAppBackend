@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2016",                                  
+    "module": "commonjs",                                
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,           
+    "strict": true,
+    "outDir": "./dist", // Donde se guardarán los archivos compilados
+    "rootDir": "./", // Ruta raíz de tus archivos fuente
+    "skipLibCheck": true // Opción que puede ayudar a evitar errores de tipo en bibliotecas
+  },
+  "include": [
+    "*.ts", // Incluir todos los archivos .ts en la raíz
+    "interfaces/**/*.ts" // Incluir todos los archivos .ts en la carpeta interfaces
+  ],
+  "exclude": [
+    "node_modules" // Excluir la carpeta node_modules
+  ]
+}
